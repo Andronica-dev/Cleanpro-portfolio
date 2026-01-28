@@ -1,2 +1,2 @@
 # Cleanpro-portfolio
-This is my first HTML website with no ai assisting in the coding only assisting in the content. This Site is an example business site.
+This site is about an example business that deals with selling cleaning products.It will form part of my portfolio. The initial biuld is done with only HTML and will have CSS added once i have finished learning it.
