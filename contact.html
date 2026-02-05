@@ -13,17 +13,22 @@
 <nav>
   <a href="index.html">Home<a>
   <a href="purchase.html">Purchase</a>
-  <a href="tutorials.html">Toturials</a> 
+  <a href="tutorials.html">Tutorials</a> 
 </nav>
 </header>
 <main>
  <form method="POST" action="pureshineprod@email.com">
    <legend>Contact Us</legend>
    <fieldset>
-     <label for="name" size="30">Name:</label>
+     <label for="name" size="30">Name (required)</label>
      <input type="text" id="name" name="name" placeholder="name and surname" required/>
-     <label for="email" size="30">Email address</label>
+     <br>
+     <label for="email" size="30">Email address (required)</label>
      <input type="text" id="email" Placeholder="example@email.com" required />
+     <br>
+     <label for="enquiry"></label>
+     <textare cols="40" rows="20" name="enquiry" id="enquiry"></textare>
+     <br>
      <button type="submit">Submit</button>
    </fieldset>
  </form>
