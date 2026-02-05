@@ -9,15 +9,22 @@
   </head>
   <body>
     <header>
-<h1>Contact Us for more information</h1>
-<nav></nav>
+<h1>Contact us for more information</h1>
+<nav>
+  <a href="index.html">Home<a>
+  <a href="purchase.html">Purchase</a>
+  <a href="tutorials.html">Toturials</a> 
+</nav>
 </header>
 <main>
- <form>
+ <form method="POST" action="pureshineprod@email.com">
    <legend>Contact Us</legend>
    <fieldset>
-     <label for="name">Name:</label>
-     <input type="text" id="name" name="name" required/>
+     <label for="name" size="30">Name:</label>
+     <input type="text" id="name" name="name" placeholder="name and surname" required/>
+     <label for="email" size="30">Email address</label>
+     <input type="text" id="email" Placeholder="example@email.com" required />
+     <button type="submit">Submit</button>
    </fieldset>
  </form>
 </main>
